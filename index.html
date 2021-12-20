@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <h1 id="title">Mobile Legends Bang Bang Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve our game </p>
+    <form id="survey-form" >
+        <label for="name" id="name-label">Name:</label>
+        <input type="text" id="name" name="text" pattern="[A-Za-z]" placeholder="Enter your name" title="Must be letters" required ><br>
+        <label for="email" id="email-label">Email:</label>
+        <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Enter your email" required><br>
+        <label for="number" id="number-label">Number:</label>
+        <input type="number" id="number" name="number" min="9" max="15" placeholder="Enter your number" title="Must be number" required><br>
+        <label for="heros" id="heros">Chose your main hero:</label>
+        <select name="hero" id="dropdown">
+            <option value="eudora">Eudora</option>
+            <option value="layla">Layla</option>
+            <option value="atlas">Atlas</option>
+            <option value="granger">Granger</option>
+        </select><br>
+        <div id="update"><p>How much you like our new update?</p>
+        <input type="radio" name="newupdate" value="Very satisfied">   
+        <label for="verysatisfied">Very satisfied</label><br>
+        <input type="radio" name="newupdate" value="Satisfied">
+        <label for="satisfied">Satisfied</label><br>
+        <input type="radio" name="newupdate" value="Unsatisfied">
+        <label for="unsatisfied">Unsatisfied</label>
+        </div><br>
+        <div id="improve"><p>What would you like to improve in our game?</p>
+        <input type="checkbox"  name="mapdesign" value="mapdesign">
+        <label for="mapdesign">Map design</label><br>
+        <input type="checkbox" name="herodesign" value="herodesign">
+        <label for="herodesign">Hero Design</label><br>
+        <input type="checkbox" name="items" value="items">
+        <label for="items">Items</label></div><br>
+        <label class="sug" for="sug">Feel free to leave any suggestion!</label>
+        <textarea name="sug" id="sug" placeholder="Write your suggestion here..."></textarea>
+        </textarea><br>
+        <input type="submit" id="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
