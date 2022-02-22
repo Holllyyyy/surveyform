@@ -1,132 +1,122 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-body{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    justify-content: space-between;
-    padding:80px;
-    height: 100vh;
-    width: 100%;
-    min-height: 100%;
-    font-size: large;
-    background: white;
-    background-image: url("https://androidayuda.com/wp-content/uploads/2021/05/mobile-legends-1.jpg");
-    background-repeat:no-repeat ;
-    background-position: center;
-    background-size: cover;
-    height: 100%;
-    
-
-
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+  min-height: 100vh;
+  max-width: 100%;
+  background: white;
+  background-image: url("https://androidayuda.com/wp-content/uploads/2021/05/mobile-legends-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-h1{
-    font-size: x-large;
-    color: rgb(72, 195, 233);
-
-
+h1 {
+  text-align: center;
+  font-size: 1, 25rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  color: rgb(72, 195, 233);
 }
-#description{
-    font-style: italic;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    color: #ffffff;
-
+#description {
+  text-align: center;
+  font-style: italic;
+  margin-top: 1%;
+  margin-bottom: 1rem;
+  color: #ffffff;
 }
-#survey-form{
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(49, 99, 119, 0.7);
-    padding: 20px;
-    border-radius: 30px;
-    max-width: 700px;
-    width: 100%;
-    color: #ffffff;
-    
-    
-   
-    
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(49, 99, 119, 0.7);
+  padding: 1rem;
+  border-radius: 30px;
+  max-width: 600px;
+  color: #ffffff;
 }
 
-#name{
-    margin-top: 1%;
-    border: 6px solid white;
-    border-radius: 5px;    
+#name {
+  margin-top: 1%;
+  border: 6px solid white;
+  border-radius: 5px;
 }
 
-#email{
-    margin-top: 1%;
-    border: 6px solid white;
-    border-radius: 5px;
+#email {
+  margin-top: 1%;
+  border: 6px solid white;
+  border-radius: 5px;
 }
-#number{
-    margin-top:1%;
-    border: 6px solid white;
-    border-radius: 5px;
-}
-
-
-#submit{
-    
-    border: 6px solid white;
-    border-radius: 5px;
+#number {
+  margin-top: 1%;
+  border: 6px solid white;
+  border-radius: 5px;
 }
 
-#dropdown{
-    margin-top: 1%;
-    border: 6px solid white;
-    border-radius: 5px;
-}
-.sug{
-    margin-bottom: 1%;}
-
-input[type=checkbox]+ label{
-    display: inline-block;
-    margin:0;
-
+#submit {
+  border: 6px solid white;
+  border-radius: 5px;
 }
 
-p{
-    margin-bottom: 1%;
-   
+#dropdown {
+  margin-top: 1%;
+  border: 6px solid white;
+  border-radius: 5px;
 }
-textarea{
-  
-    border: 2px solid rgb(0, 0, 0);
-    text-align: left;
-    padding: 1em;
-  
-    height: 200px;
-}
-    
-#submit{
-    padding: 2%;
-    background: #404040;
-    border: 1px solid #404040;
-    font-weight:bold;
-    color: #ffffff;
-    text-transform:uppercase ;
-}
-#submit:hover{
-    background: rgb(72, 195, 233);
-    color: #000000;
+.sug {
+  margin-bottom: 1%;
 }
 
-
-#name-label,#name,#email-label, #email,#number-label,#number, #heros, #dropdown, #update,#improve, .sug,textarea,#submit {
-    margin-left:5% ;
-    margin-right:5% ;
+input[type="checkbox"] + label {
+  display: inline-block;
+  margin: 0;
 }
 
+p {
+  margin-bottom: 1%;
+}
+textarea {
+  border: 2px solid rgb(0, 0, 0);
+  text-align: left;
+  padding: 1em;
+}
 
+#submit {
+  padding: 2%;
+  background: #404040;
+  border: 1px solid #404040;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+#submit:hover,
+#submit:focus {
+  background: rgb(72, 195, 233);
+  color: #000000;
+}
 
-
-
+#name-label,
+#name,
+#email-label,
+#email,
+#number-label,
+#number,
+#heros,
+#dropdown,
+#update,
+#improve,
+.sug,
+textarea,
+#submit {
+  margin-left: 5%;
+  margin-right: 5%;
+}
